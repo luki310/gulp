@@ -1,0 +1,24 @@
+body {
+  background-color: #e4e4e4;
+}
+
+body h1 {
+  color: #011116;
+}
+
+body .center {
+  margin: auto;
+}
+
+body .container .row {
+  height: calc(100vh - 95px);
+}
+
+body .footer > nav > span {
+  font-size: 9px;
+}
+
+body img {
+  max-height: 200px;
+  margin: 0 20px;
+}

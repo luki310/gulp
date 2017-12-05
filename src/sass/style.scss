@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import "./variables";
+
+body {
+    background-color: $background-color;
+
+    h1 {
+        color: $text-color;
+    }
+    .center {
+        margin: auto;
+    }
+
+    .container .row {
+        height: calc(100vh - 95px);
+    }
+    
+    
+    .footer > nav > span {
+        font-size: 9px;
+    }
+    
+    img {
+        max-height: 200px;
+        margin: 0 20px;
+    }
+
+}
